@@ -1,0 +1,40 @@
+#trivia {
+padding: 10px 20px 10px 20px;
+width: 980px;
+border-radius: 10px;
+background:  pink;
+padding: 10px 20px 10px 20px;
+border-radius: 10px;
+text-align: center;
+
+}
+
+#start-button {
+    background: green;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 15px; 
+    text-align: center;
+    color: white;
+    width: 180px;
+}
+
+#done-button {
+    background: green;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 15px; 
+    color: white;
+    width: 180px;
+}
+#start {
+    text-align: center;  
+    background:  pink; 
+    padding: 10px 20px 10px 20px;
+    width: 980px;
+    border-radius: 10px; 
+}
