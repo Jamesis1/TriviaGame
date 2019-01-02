@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Triviagame</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script
   src="http://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -24,35 +25,35 @@
 
     <div id="trivia">
         <h1>Totally Trivial Trivia!</h1>
-        <h3>Time Remaining: </h3>
+        <h3>Time Remaining: <span id="timer"> 180</span></h3>
 
         <form id=Trivia>
-            <p>Which of this is Not the name of the spice Girls?</p>
+            <p>1. Which of this is Not the name of the spice Girls?</p>
             <input type="radio" name="question1" value="Mel B">Mel B
             <input type="radio" name="question1" value="Victoria">Victoria
-            <input type="radio" name="question1" value="Julie">Julie<br>
-            <p>Which NBA team won the most titles in the 90s?</p>
+            <input type="radio" name="question1" value="Julie">Julie<br><br>
+            <p>2. Which NBA team won the most titles in the 90s?</p>
             <input type="radio" name="question2" value="Celtics">Celtics
-            <input type="radio" name="question2" value="LA lakers">LA lakers
-            <input type="radio" name="question2" value="Chicago">Chicago<br>
-            <p>Which group released the hit song, "Smells Like Teen Sprint?</p>
+            <input type="radio" name="question2" value="LA lakers" id="lakers">LA lakers
+            <input type="radio" name="question2" value="Chicago">Chicago<br><br>
+            <p>3. Which group released the hit song, "Smells Like Teen Sprint?</p>
             <input type="radio" name="question3" value="Nirvana">Nirvana 
             <input type="radio" name="question3"value="Jam Pear">Jam Pear
-            <input type="radio" name="question3" value="Sound">Sound<br>
-            <p>Which popular Disney movie featured the song, "Circle of Like?</p>
+            <input type="radio" name="question3" value="Sound">Sound<br><br>
+            <p>4. Which popular Disney movie featured the song, "Circle of Like?</p>
             <input type="radio" name="question4" value="Tarzan">Tarzan
             <input type="radio" name="question4" value="Lion King">Lion King
-            <input type="radio" name="question4" value="Beauty the Beast">Beauty the Beast<br>
-            <p>What was Doug's best friend's name?</p>
+            <input type="radio" name="question4" value="Beauty the Beast">Beauty the Beast<br><br>
+            <p>5. What was Doug's best friend's name?</p>
             <input type="radio" name="question5" value="Roger">Roger
             <input type="radio" name="question5" value="Skinky">Skinky
-            <input type="radio" name="question5" value="Skeeter">Skeeter<br> 
-            <p>What was the name of the principal at Bayside High in saved by the bell?</p>
+            <input type="radio" name="question5" value="Skeeter">Skeeter<br><br> 
+            <p>6. What was the name of the principal at Bayside High in saved by the bell?</p>
             <input type="radio" name="question6" value="Dewey">Dewey
             <input type="radio" name="question6" value="Richard">Richard
-            <input type="radio" name="question6" value="Culpepper">Culpepper<br> 
+            <input type="radio" name="question6" value="Culpepper">Culpepper<br><br> 
 
-            <input id="done-button" type="button" value="Done">
+            <input id="done-button" type="button" value="Done"><br><br> 
 
         </form>
     </div>
@@ -60,9 +61,9 @@
     <div id="result">
 
         <h1>Totally Trivial Trivia!</h1>
-            <p>correct = 0</p>
-            <p>incorrect = 0</p>
-            <p>unanswered</p>
+            <p>correct = <span id="correct">0</span></p>
+            <p>incorrect = <span id="incorrect">0</span></p>
+            
     </div>  
 
 

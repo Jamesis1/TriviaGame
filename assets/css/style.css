@@ -38,3 +38,17 @@ text-align: center;
     width: 980px;
     border-radius: 10px; 
 }
+
+#result {
+    text-align: center;  
+    background:  pink; 
+    padding: 10px 20px 10px 20px;
+    width: 980px;
+    border-radius: 10px; 
+
+}
+
+input {
+    margin-left: 20px;
+    margin-right: 10px
+}
