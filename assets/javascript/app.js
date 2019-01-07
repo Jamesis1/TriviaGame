@@ -37,7 +37,7 @@ function getAndDisplayResult() {
         correct++
     }
     else{incorrect++};
-    if ($('input[value=Lion King]:checked').val()) {
+    if ($('input[value=LionKing]:checked').val()) {
         correct++
     }
     else{incorrect++};
