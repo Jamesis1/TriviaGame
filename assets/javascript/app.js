@@ -23,17 +23,26 @@ var Timer
 
 function getAndDisplayResult() {
     // grade quiz here
-    if ($('input[value=Julie]:checked')) {
+    if ($('input[value=Julie]:checked').val()) {
         correct++
     }
     else{incorrect++};
 
-    if ($('input[value=Chicago]:checked')) {
+    if ($('input[value=Chicago]:checked').val()) {
         correct++
     }
     else{incorrect++};
 
-    if ($('input[value=Nirvana]:checked')) {
+    if ($('input[value=Nirvana]:checked').val()) {
+        correct++
+    }
+    else{incorrect++};
+    if ($('input[value=Lion King]:checked').val()) {
+        correct++
+    }
+    else{incorrect++};
+
+    if ($('input[value=Richard]:checked').val()) {
         correct++
     }
     else{incorrect++};
